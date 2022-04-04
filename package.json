@@ -44,7 +44,8 @@
       "eslint --fix"
     ],
     "*.{js,jsx,ts,tsx,css,md,json}": [
-      "prettier --write"
+      "prettier --write",
+      "git add ."
     ]
   },
   "license": "MIT"
