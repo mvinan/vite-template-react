@@ -29,15 +29,13 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended', // Make sure this is always the last element in the array.
   ],
-  plugins: ['simple-import-sort', 'prettier'],
+  plugins: ['import', 'prettier'],
   rules: {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     semi: 'off',
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/accessible-emoji': 'off',
     'react/prop-types': 'off',
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
@@ -46,5 +44,9 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
       },
     ],
+    'import/named': 2,
+    'import/namespace': 2,
+    'import/default': 2,
+    'import/export': 2,
   },
 }

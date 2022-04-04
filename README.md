@@ -1,4 +1,5 @@
 # vite-template-react
+
 A vite basic react template with Eslint, TailwindCss, Prettier, DaisyUi, headlessui, heroicons, precommit, husky, classnames, react router
 
 ## What's inside?
